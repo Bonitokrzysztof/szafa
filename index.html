@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+<title>Moja responsywna strona</title>
+<script type="text/javascript" src="timer.js"></script>
+<link rel="stylesheet" href="main.css">
+<style>
+
+    body{
+    height: 100vh;
+    background-image: url("sjena.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+</style>
+
+</head>
+<body onload="odliczanie();">
+    
+
+
+<nav>
+    <img class="logo" src="logo3.png" alt="logo">
+    
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+
+    <button class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </button>
+</nav>
+<div id="zegar"></div> 
+
+
+<script>
+
+const mobileNav = document.querySelector('ul');
+const burgerIcon = document.querySelector('.burger');
+
+burgerIcon.addEventListener('click', function(){
+mobileNav.classList.toggle('active');
+burgerIcon.classList.toggle('active');})
+
+
+</script>
+   
+
+</body>
+</html>
