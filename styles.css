@@ -1,0 +1,45 @@
+:root
+{
+   --green:#38ccae;
+   --dark:#1b1b1b;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--green);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*centrowanie w poziomie*/
+    align-items: center; /*centrowanie w pionie*/
+    background: linear-gradient(to right top,var(--dark),var(--green));
+    overflow: hidden; /* chowamy scrollbary */
+}
+
+.container{
+    width: 66%;
+    height: 66%;
+    background: rgba(0,0,0,0.75);
+    background: linear-gradient(to right top, rgba(0,0,0,0.75),rgba(0,0,0,0.25));
+    border-radius: 20px;
+    position: relative;/*dzeki relative wejdzie pod spod diva */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.bg_img{
+    position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
+    top: 0;/*ustawia element u gory */
+    right: 60%;
+    animation: slidedown 8s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
+}
+
+@keyframes slidedown{
+    from{top:0}
+    to{top: 100%}
+}
