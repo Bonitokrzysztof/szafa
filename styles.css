@@ -35,7 +35,7 @@ body{
 .bg_img{
     position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
     top: 0;/*ustawia element u gory */
-    right: 60%;
+    right: 30%;
     animation: slidedown 8s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
 }
 
