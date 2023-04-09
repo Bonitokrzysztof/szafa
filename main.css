@@ -3,6 +3,14 @@
     margin: 0;
  }
 
+ body{
+    height: 100vh;
+    background-image: url("sjena.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
  :root
  {
     --blue:#702a9f;
