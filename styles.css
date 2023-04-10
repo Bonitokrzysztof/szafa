@@ -23,23 +23,50 @@ body{
 
 .container{
     width: 66%;
-    height: 66%;
+    height:66%;
     background: rgba(0,0,0,0.75);
     background: linear-gradient(to right top, rgba(0,0,0,0.75),rgba(0,0,0,0.25));
     border-radius: 20px;
     position: relative;/*dzeki relative wejdzie pod spod diva */
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .bg_img{
     position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
-    top: 0;/*ustawia element u gory */
-    right: 30%;
-    animation: slidedown 8s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
+   
 }
 
-@keyframes slidedown{
-    from{top:0}
-    to{top: 100%}
+.bg_img--button{
+    position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
+    top: 1%;/*ustawia element u gory */
+    right: 30%;
+    animation: slidedown 30s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
+    height: 31vh; /* nadajemy obiektowi zawsze wysokość 30% ekranu lub jak chcemy */ 
+}
+
+.bg_img--dots{
+    top:65%;
+    left: 30%;
+    height: 55vh;
+    position: absolute;
+    animation: rotate 50s linear infinite;
+}
+
+.bg_img--logo{
+    left: 0;
+    top: 50%;
+    transform: translate(0%,-52%);
+    position: absolute;
+    height: 47vh;
+}
+
+@keyframes slidedown{/* animacja */
+    from {transform: translateX(-50vh)}
+    to {transform: translateX(100vh)}
+}
+
+@keyframes rotate{/* animacja */
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
