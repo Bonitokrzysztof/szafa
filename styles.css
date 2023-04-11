@@ -93,7 +93,7 @@ a:hover:after{
 .bg_img--dots{
     top:60%;
     left: 3%;
-    height: 35vh;
+    height: 20vh;
     position: absolute;
     animation: rotate 50s linear infinite;
     
