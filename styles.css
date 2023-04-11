@@ -38,7 +38,7 @@ p{
 }
 a{
     color: var(--green);
-    font-size: 19px;
+    font-size: 21px;
     text-decoration: none;
     position: relative; /* dzieki relativ kreska sie ustawia do tego miejsca */
 }
@@ -61,7 +61,7 @@ a:hover:after{
 
 .container{
     width: 1000px;
-    height: 70vh;
+    height: 75vh;
     background: rgba(0,0,0,0.75);
     background: linear-gradient(to right top, rgba(0,0,0,0.75),rgba(0,0,0,0.25));
     margin-right: 15px;
@@ -91,7 +91,7 @@ a:hover:after{
 }
 
 .bg_img--dots{
-    top:55%;
+    top:60%;
     left: 3%;
     height: 35vh;
     position: absolute;
