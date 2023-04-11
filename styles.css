@@ -100,13 +100,7 @@ a:hover:after{
     
 }
 
-.bg_img--lisc{
-    position: absolute;
-    left: 11%;
-    height: 38vh;
-    top:53%;
-    
-}
+
 
 @keyframes slidedown{/* animacja */
     from {transform: translateX(-140vh)}
