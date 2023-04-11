@@ -83,16 +83,16 @@ a:hover:after{
 
 .bg_img--button{
     position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
-    top: 1%;/*ustawia element u gory */
+    top: 4%;/*ustawia element u gory */
     right: 30%;
     animation: slidedown 16s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
-    height: 55vh; /* nadajemy obiektowi zawsze wysokość 30% ekranu lub jak chcemy */ 
+    height: 45vh; /* nadajemy obiektowi zawsze wysokość 30% ekranu lub jak chcemy */ 
 }
 
 .bg_img--dots{
     top:65%;
     left: 33%;
-    height: 55vh;
+    height: 40vh;
     position: absolute;
     animation: rotate 50s linear infinite;
     
