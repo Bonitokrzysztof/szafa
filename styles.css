@@ -101,7 +101,9 @@ a:hover:after{
 
 .bg_img--lisc{
     position: absolute;
-    right: -33%;
+    right: -9%;
+    height: 60vh;
+    top:28%;
 }
 
 @keyframes slidedown{/* animacja */
