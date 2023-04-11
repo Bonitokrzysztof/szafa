@@ -86,14 +86,14 @@ a:hover:after{
     position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
     top: 70%;/*ustawia element u gory */
     right: 0%;
-    animation: slidedown 26s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
-    height: 25vh; /* nadajemy obiektowi zawsze wysokość 30% ekranu lub jak chcemy */ 
+    animation: slidedown 30s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
+    height: 28vh; /* nadajemy obiektowi zawsze wysokość 30% ekranu lub jak chcemy */ 
 }
 
 .bg_img--dots{
-    top:1%;
-    left: 1%;
-    height: 15vh;
+    top:0%;
+    left: 0%;
+    height: 17vh;
     position: absolute;
     animation: rotate 30s linear infinite;
     
