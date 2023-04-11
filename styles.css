@@ -61,7 +61,7 @@ a:hover:after{
 
 .container{
     width: 1200px;
-    height: 800px;
+    height: 600px;
     flex-wrap: ;
     background: rgba(0,0,0,0.75);
     background: linear-gradient(to right top, rgba(0,0,0,0.75),rgba(0,0,0,0.25));
