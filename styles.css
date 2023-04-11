@@ -93,6 +93,7 @@ a:hover:after{
 .bg_img--dots{
     top:0%;
     left: 0%;
+    width:auto ;
     height: 17vh;
     position: absolute;
     animation: rotate 30s linear infinite;
@@ -101,9 +102,10 @@ a:hover:after{
 
 .bg_img--lisc{
     position: absolute;
-    right: -25%;
-    height: 60vh;
-    top:28%;
+    left: 11%;
+    height: 35vh;
+    top:58%;
+    
 }
 
 @keyframes slidedown{/* animacja */
@@ -117,7 +119,7 @@ a:hover:after{
 }
 
 .logo{
-    width: 200px;
+    width: 170px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
