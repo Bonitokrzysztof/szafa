@@ -25,15 +25,15 @@ body{
 }
 
 h1{
-    font-size: 26px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
     text-align: center;
     
 }
 
 p{
     font-size: 19px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 a{
@@ -61,7 +61,7 @@ a:hover:after{
 
 .container{
     width: 1000px;
-    height: 75vh;
+    height: 50vh;
     background: rgba(0,0,0,0.75);
     background: linear-gradient(to right top, rgba(0,0,0,0.75),rgba(0,0,0,0.25));
     margin-right: 15px;
@@ -70,7 +70,11 @@ a:hover:after{
     position: relative;/*dzeki relative wejdzie pod spod diva */
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(3px);
-    top: 50px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items:;
     
     
    
@@ -84,9 +88,9 @@ a:hover:after{
 
 .bg_img--button{
     position: absolute;/*dzeki absolute nie bedzie przesuwał elementu */
-    top: 70%;/*ustawia element u gory */
+    top: 40%;/*ustawia element u gory */
     right: 0%;
-    animation: slidedown 30s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
+    animation: slidedown 10s linear infinite;/*splywa z gory na dół a infinite sprawia ze to sie powtarza lineat płynnie przechodzi */
     height: 28vh; /* nadajemy obiektowi zawsze wysokość 30% ekranu lub jak chcemy */ 
 }
 
@@ -113,7 +117,7 @@ a:hover:after{
 }
 
 .logo{
-    width: 170px;
+    width: 100px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -144,7 +148,7 @@ button{
     margin-top: 30px;
     position: relative;
     text-align: center;
-    left: 20%;
+    left: 0%;
     border-radius: 15px;
     
 
