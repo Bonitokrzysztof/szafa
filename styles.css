@@ -131,4 +131,39 @@ a:hover:after{
     
     
 }
+button{
+    width: 350px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    background: var(--green);
+    background: linear-gradient(to right top, #38ccae,rgba(255,255,255,0.6));
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    left: 20%;
+    border-radius: 15px;
+    
+
+}
+button:focus {
+    outline-color: #fff;
+}
+button:after{
+    content: "";
+    background-color:rgba(255, 255, 255, 0.1) ;
+    width: 100px;
+    height: 40%;
+    position: absolute;
+    left: -100px;
+    top: 10;
+    transition: transform 0.2s;
+    transform: rotate(45deg);
+}
+button:hover:after{
+    transform: translateX(400px);
+}
 
